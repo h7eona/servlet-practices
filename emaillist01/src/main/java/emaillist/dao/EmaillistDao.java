@@ -27,7 +27,6 @@ public class EmaillistDao {
 			
 			pstmt.setString(1, email);
 			
-			// 5. SQL 실행
 			int count = pstmt.executeUpdate();
 			
 			result = count == 1;
